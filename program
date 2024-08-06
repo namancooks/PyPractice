@@ -1,0 +1,12 @@
+print("Hello world")
+s = input("enter string")
+c = ""
+d = 0
+if s.isalnum() or s.isdigit():
+    for i in s:
+        if i.isdigit():
+            c+=i
+    print(c)
+    for j in c:
+        d+=int(j)
+    print(d)
